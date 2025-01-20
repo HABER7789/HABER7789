@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @HABER7789
+- 👋 Hi, I’m Dhairya Patel
 - 👀 I’m interested in Quantum Computing and Game Design
 - 🌱 I’m currently pursuing my Master's in Computer Science at Northeastern University
 - 💞️ I’m looking to collaborate on Quantum Computing Open Source projects
