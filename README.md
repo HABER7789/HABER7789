@@ -5,12 +5,6 @@
   M.S. Computer Science (Quantum Computing) @ Northeastern • Quantum + ML + Systems
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/dhairya-patel-h14">LinkedIn</a> •
-  <a href="mailto:patel.dhairya@northeastern.edu">patel.dhairya@northeastern.edu</a> •
-  <a href="http://dhairya-portfolio2.vercel.app">Portfolio</a>
-</p>
-
 ---
 
 ## What I do
