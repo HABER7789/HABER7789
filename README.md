@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/dhairya-patel-h14">LinkedIn</a> •
   <a href="mailto:patel.dhairya@northeastern.edu">patel.dhairya@northeastern.edu</a> •
-  <a href="https://dhairya-patel.vercel.app/">Portfolio</a>
+  <a href="https://dhairya-patel.vercel.app/](http://dhairya-portfolio2.vercel.app">Portfolio</a>
 </p>
 
 ---
