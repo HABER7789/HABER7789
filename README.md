@@ -16,7 +16,7 @@
 ## What I do
 - **Quantum computing + optimization:** QAOA/VQE, circuit optimization, error mitigation, hybrid quantum–classical pipelines.
 - **ML systems:** Python/C++ pipelines, model evaluation, API-backed deployments.
-- **Systems programming & teaching:** performance-aware C++ (TA: Building Game Engines).
+- **Systems programming & teaching:** performance-aware C++ (TA: Building Game Engines, Game Programming).
 
 **Seeking:** Full-time (May 2026 onwards)
 
