@@ -11,7 +11,7 @@ M.S. Computer Science (Quantum Computing) · Northeastern University · `Availab
 &nbsp;
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:pateldhairya416@gmail.com)
 &nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://dhairya-patel.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)]([https://dhairya-patel.vercel.app](http://dhairya-portfolio2.vercel.app))
 
 </div>
 
