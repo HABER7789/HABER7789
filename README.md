@@ -11,19 +11,21 @@ M.S. Computer Science (Quantum Computing) · Northeastern University · `Availab
 &nbsp;
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:pateldhairya416@gmail.com)
 &nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)]([https://dhairya-patel.vercel.app](http://dhairya-portfolio2.vercel.app))
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](http://dhairya-portfolio2.vercel.app)
 
 </div>
 
 ---
 
-I'm a software engineer who works in quantum computing — somewhere between the physics and the code. I build simulation pipelines, pulse-level control software, and ML tooling for quantum systems. I'm not a hardware experimentalist, but I understand enough of the hardware constraints to write software that respects them.
+I'm a software engineer who works in quantum computing, somewhere between the physics and the code :) I build simulation pipelines, pulse-level control software, and ML tooling for quantum systems. I'm not a hardware experimentalist, but I understand enough of the hardware constraints to write software that respects them.
 
 On the classical side: systems programming in Python and C++, CI-tested pipelines, and backend infrastructure.
 
 **→ Pinned repos below.**
 
 ---
+
+<div align="center">
 
 ### Quantum
 
@@ -55,3 +57,5 @@ On the classical side: systems programming in Python and C++, CI-tested pipeline
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+</div>
