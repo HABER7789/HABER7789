@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">
+  <defs>
+    <style>
+      .line { stroke: #1e3a5f; stroke-width: 1; opacity: 0.5; }
+      .node { fill: #1e3a5f; }
+      .node-bright { fill: #3b82f6; }
+      .pulse { fill: #3b82f6; opacity: 0; }
+
+      /* Pulse animations on nodes */
+      .p1 { animation: blink 4s ease-in-out 0s infinite; }
+      .p2 { animation: blink 4s ease-in-out 0.8s infinite; }
+      .p3 { animation: blink 4s ease-in-out 1.6s infinite; }
+      .p4 { animation: blink 4s ease-in-out 2.4s infinite; }
+      .p5 { animation: blink 4s ease-in-out 3.2s infinite; }
+
+      /* Signal traveling along wire */
+      .sig1 { animation: travel1 5s linear 0s infinite; }
+      .sig2 { animation: travel2 5s linear 1s infinite; }
+      .sig3 { animation: travel3 5s linear 2.5s infinite; }
+      .sig4 { animation: travel4 5s linear 0.5s infinite; }
+
+      @keyframes blink {
+        0%, 100% { opacity: 0.15; r: 3; }
+        50% { opacity: 1; r: 5; }
+      }
+
+      @keyframes travel1 {
+        0%   { transform: translateX(0px);  opacity: 0; }
+        5%   { opacity: 1; }
+        95%  { opacity: 1; }
+        100% { transform: translateX(300px); opacity: 0; }
+      }
+      @keyframes travel2 {
+        0%   { transform: translateX(0px);  opacity: 0; }
+        5%   { opacity: 1; }
+        95%  { opacity: 1; }
+        100% { transform: translateX(240px); opacity: 0; }
+      }
+      @keyframes travel3 {
+        0%   { transform: translateX(0px);  opacity: 0; }
+        5%   { opacity: 1; }
+        95%  { opacity: 1; }
+        100% { transform: translateX(200px); opacity: 0; }
+      }
+      @keyframes travel4 {
+        0%   { transform: translateX(0px);  opacity: 0; }
+        5%   { opacity: 1; }
+        95%  { opacity: 1; }
+        100% { transform: translateX(280px); opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="120" fill="#0d1117" rx="8"/>
+
+  <!-- Horizontal circuit rails -->
+  <line class="line" x1="80" y1="35" x2="720" y2="35"/>
+  <line class="line" x1="80" y1="60" x2="720" y2="60"/>
+  <line class="line" x1="80" y1="85" x2="720" y2="85"/>
+
+  <!-- Vertical connectors -->
+  <line class="line" x1="180" y1="35" x2="180" y2="85"/>
+  <line class="line" x1="320" y1="35" x2="320" y2="60"/>
+  <line class="line" x1="460" y1="60" x2="460" y2="85"/>
+  <line class="line" x1="580" y1="35" x2="580" y2="85"/>
+  <line class="line" x1="660" y1="35" x2="660" y2="60"/>
+
+  <!-- Gate boxes (subtle) -->
+  <rect x="200" y="27" width="22" height="16" rx="2" fill="none" stroke="#1e3a5f" stroke-width="1" opacity="0.6"/>
+  <rect x="390" y="52" width="22" height="16" rx="2" fill="none" stroke="#1e3a5f" stroke-width="1" opacity="0.6"/>
+  <rect x="520" y="77" width="22" height="16" rx="2" fill="none" stroke="#1e3a5f" stroke-width="1" opacity="0.6"/>
+
+  <!-- Gate labels -->
+  <text x="211" y="38" font-family="monospace" font-size="7" fill="#3b82f6" opacity="0.5">H</text>
+  <text x="399" y="63" font-family="monospace" font-size="7" fill="#3b82f6" opacity="0.5">X</text>
+  <text x="529" y="88" font-family="monospace" font-size="7" fill="#3b82f6" opacity="0.5">Z</text>
+
+  <!-- Static nodes -->
+  <circle class="node" cx="130" cy="35" r="3"/>
+  <circle class="node" cx="130" cy="60" r="3"/>
+  <circle class="node" cx="130" cy="85" r="3"/>
+  <circle class="node" cx="350" cy="35" r="3"/>
+  <circle class="node" cx="350" cy="60" r="3"/>
+  <circle class="node" cx="490" cy="60" r="3"/>
+  <circle class="node" cx="490" cy="85" r="3"/>
+  <circle class="node" cx="620" cy="35" r="3"/>
+  <circle class="node" cx="690" cy="60" r="3"/>
+
+  <!-- Animated pulsing nodes -->
+  <circle class="node-bright p1" cx="180" cy="35" r="3"/>
+  <circle class="node-bright p2" cx="320" cy="60" r="3"/>
+  <circle class="node-bright p3" cx="460" cy="85" r="3"/>
+  <circle class="node-bright p4" cx="580" cy="60" r="3"/>
+  <circle class="node-bright p5" cx="660" cy="35" r="3"/>
+
+  <!-- Traveling signals -->
+  <circle class="pulse sig1" cx="130" cy="35" r="2.5" fill="#60a5fa"/>
+  <circle class="pulse sig2" cx="130" cy="60" r="2.5" fill="#60a5fa"/>
+  <circle class="pulse sig3" cx="240" cy="85" r="2.5" fill="#60a5fa"/>
+  <circle class="pulse sig4" cx="380" cy="35" r="2.5" fill="#93c5fd"/>
+
+  <!-- Center text -->
+  <text x="400" y="56" font-family="'Courier New', monospace" font-size="16" font-weight="bold"
+    fill="#e6edf3" text-anchor="middle" letter-spacing="6">DHAIRYA PATEL</text>
+  <text x="400" y="74" font-family="'Courier New', monospace" font-size="8"
+    fill="#3b82f6" text-anchor="middle" letter-spacing="3" opacity="0.8">QUANTUM · SYSTEMS · ML</text>
+</svg>
