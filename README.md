@@ -2,8 +2,7 @@
 <img src="https://raw.githubusercontent.com/HABER7789/HABER7789/main/header.svg" alt="header" width="100%"/>
 <br/><br/>
 
-**Dhairya Patel** &nbsp;·&nbsp; Quantum Computing · ML Systems · Software Engineering  
-M.S. Computer Science (Quantum Computing) · Northeastern University · `Available May/June 2026`
+**Dhairya Patel** &nbsp;·&nbsp; Quantum Software Engineer at Microsoft · ML Systems
 
 <br/>
 
